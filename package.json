@@ -1,0 +1,52 @@
+{
+  "name": "create-rnpx",
+  "version": "0.0.3",
+  "description": "Creates a rnpx application using the command line.",
+  "homepage": "https://github.com/rnpx/create-rnpx",
+  "bugs": {
+    "url": "https://github.com/rnpx/create-rnpx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rnpx/create-rnpx"
+  },
+  "license": "MIT",
+  "files": [
+    "cli.js",
+    "index.js",
+    "lib"
+  ],
+  "bin": {
+    "create-rnpx": "cli.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "chalk": "4.0.0",
+    "clipboardy": "^2.1.0",
+    "debug": "^4.1.1",
+    "execa": "^1.0.0",
+    "fs-extra": "^8.0.1",
+    "glob": "^7.1.4",
+    "inquirer": "^6.4.1",
+    "mkdirp": "^0.5.1",
+    "prettier": "^1.17.0",
+    "semver": "^6.1.0",
+    "sort-package-json": "^1.22.1",
+    "sylvanas": "^0.4.0",
+    "typescript": "^3.8.3",
+    "umi-utils": "^1.5.2",
+    "yargs-parser": "^13.1.1",
+    "yeoman-environment": "^2.8.0",
+    "yeoman-generator": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "coffee": "^5.2.1",
+    "mm": "^2.5.0",
+    "np": "^5.0.1",
+    "umi-test": "^1.8.2"
+  },
+  "authors": [
+    "panjunlin <panjunlin@gmail.com> (https://github.com/AllenPan03)"
+  ]
+}

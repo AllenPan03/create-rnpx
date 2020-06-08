@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <!-- head start -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="format-detection" content="telephone=no, email=no, adress=no" />
+
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <!-- 代码监控 -->
+  <script src="https://wds.jinlins.com/sentry/sentry.js" crossorigin="anonymous" async></script>
+  <script>
+    // 加载调试面板
+    (function () {
+      var src = 'https://wds.jinlins.com/vconsole/vconsole-2.5.2.min.js';
+      var keyword = 'vConsole=1';
+      var search = window.location.href;
+      if (search.indexOf(keyword) != -1) {
+        document.write('<sc' + 'ript src="' + src + '"></sc' + 'ript>');
+      }
+    })();
+    // 计算缩放比例 
+    (function () {
+      var phoneScale = parseInt(window.screen.width) / 750;
+      document.write('<meta name="viewport" content="width=750, minimum-scale=' + phoneScale + ', maximum-scale=' +
+        phoneScale + ', user-scalable=no">');
+    })();
+  </script>
+  <!-- head end -->
+  <title></title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="layout-fake">
+      <img
+        src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA7CAYAAADFJfKzAAAFA0lEQVRoQ92bWaxdUxjHf38x1RChhJAaiprnlBBJEYKIBwkSUkNoItpQUhUevBExBZXgoQ1SHog0TSpRpZSYlUhNMWsTMURaiSGN6S9frMu2us+5Z9jn3LP3l9yXfc9ee/32t9a3vmmLAYntA4ATgCOAA4EpwK7AtsAWwK/AT8CPwGfAx8AHwCpJawcxLVU5qO3pwPnAucDefYz9BfA0sFjSG32M879b+4a1vRVwGTAP2LeqiRXG+QS4D1goaWM/4/cMmyBnA9cBu/cziQ7v/Ra4I8Al/d7hPf1r1na8pOeAU3p5aJ/3fAjMkbSq23F60qztMDyvjPOw34DXgHfSX0xyfTJIYZgmAdsDewBhzA4BZgCx78OAtROnpT1fUjynI6ka9i9gBfAEsFTSho5mUfiR7XgB5wAXpZWzWZsxVgPnSfqqk+f0ChsTWAmclB7yJ/A4cIuk0GAlYvtg4AbgAmDzFoN+A5whac14D+0JNga1vWU6ZnYClkn6cryH9fp/24cB9wMnthgjzuqzJb3c7hk9w/Y68V7vS0ZxDnAnEMddLgE8o52GawM7Rmb7aGAJsFcJcCzp41t5YLWDTVsoLPhy4NAS4LdiuZdZ6VrCJuCwFS+lIytnvlfSNfnF2sIWNPwqsGcGFufwyZJeLF6vNWwCPiY5OLnRigjqqKJrWXvYBHwVsKBk/14r6Z6x602BDY44Y8ONLUpY56lj0VIjYJN2I0kQ7mPuaUXQEA4JjYFNwI8BF2ba/UhSuJ2Ng43IKXzkPHiYLml1ozSbtPt8HDuZdhdImttE2EuBhzLYTyVNayLsDsAPJYZqSuNg01KOjOSxmXZnNhX2NuD6DPbWpsJeDDySwS5pKuxxwOsZ7JqmwkapZV0Gu062pwIPpw39JnDJIPNJJc565Zds75jStsWxNwRsfgi/IGkikt+VQadqRV4q2RiwUU2LhPWYRGlhkqRIj9ZSWmh2fcB+D+ySUe0m6btakv6T5o3MRV72XBuw75fkcQ6X9F6NYcutse1ngVMzsCgpPFlj2PJz1vbdQJ6Ju1nSTTWGvR2Yv4kHZbssSlgpKdd2bdhtl/vGtiPgjX1blCgDTpb0c20I00Rtt496bIflynOvtdy3LVbqf/Gs7QeBKzItLpd0Zg012z5TYTs8pqi3FiUKy/vVyXVMW7J9DiqVA6MPaf8MeJGkWXXRru3Osou2w1SHyS7KH+FwSIr2nJEW263yxrMlPRCT/zfES70M0Wy1c0Y18sdQWpndVQRaaDfYZ0laNKqqtd19rcd2RD9x5kaMW5SIjKKiPW6TxrBfiO3eq3i2TwOeKakWfB6FI0kRJY2E2I4KfH/1WdsLgctLiN5NRd5o1phQsV1N5T0t53hjR5YQvQ2cNZHxbtJodT0VKTcVOanJJcDR8xR9R1HdHqoMrFvGdmTVoyEzWuxyCaM1T1K4mgOXofRB2Y6WvadSB3gZVPiiVw9Sy0PtcEsd4stS23sZcCTpFocHJinczkrE9kHAjUPvXUx7eCkQfYStZKwr9dHUlfpLt9Qj05Vqe2vgLuDKDqr2kQAIAxe9SGHIwr/+GoiEQOz3berSb3x6asWZ1q3mKvj9cDvJY8KpBTcSdREt5cFDBUybDDEx3wgUp2E7lmPEvHNLfOoqoCf+648yivTtwMzwsEpyWt2Aj+Z3Pa0IbO+TPnCINtnY2/HNT1TXtkvGaehfbP0NIWMDth7w6nsAAAAASUVORK5CYII=' />
+    </div>
+  </div>
+</body>
+
+</html>

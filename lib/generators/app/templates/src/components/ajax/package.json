@@ -1,0 +1,6 @@
+{
+  "name": "ajax",
+  "version": "0.0.1",
+  "author": "panjunlin",
+  "main": "./ajax.js"
+}

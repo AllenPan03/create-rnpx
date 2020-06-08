@@ -1,0 +1,41 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "chrome": 52,
+                    "browsers": [
+                        "last 2 versions",
+                        "safari 7"
+                    ]
+                }
+            }
+        ],
+        "stage-0",
+        "react"
+    ],
+    "plugins": [
+        [
+            "react-css-modules",
+            {
+                "filetypes": {
+                    ".less": {
+                        "syntax": "postcss-less"
+                    }
+                },
+                "generateScopedName": "[name]_[local]_[hash:base64:5]",
+                "webpackHotModuleReloading": false,
+                "handleMissingStyleName": "warn"
+            }
+        ],
+        [
+            "import",
+            {
+                "libraryName": "antd-mobile",
+                "libraryDirectory": "lib",
+                "style": true
+            }
+        ]
+    ]
+}

@@ -1,0 +1,80 @@
+dependencies:
+  digo: 0.2.0
+  fs: 0.0.1-security
+  open: 7.0.0
+  path: 0.12.7
+  typescript: 3.7.4
+packages:
+  /digo/0.2.0:
+    dev: false
+    engines:
+      node: '>=6.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-cZD135gOLAdjHcXCAucduco4vJA=
+      tarball: 'https://registry.npm.taobao.org/digo/download/digo-0.2.0.tgz'
+  /fs/0.0.1-security:
+    dev: false
+    resolution:
+      integrity: sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+      tarball: 'https://registry.npm.taobao.org/fs/download/fs-0.0.1-security.tgz'
+  /inherits/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+      tarball: 'https://registry.npm.taobao.org/inherits/download/inherits-2.0.3.tgz'
+  /is-wsl/2.1.1:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-ShwVLUKd89RBZpSY4khtNZbrrx0=
+      tarball: 'https://registry.npm.taobao.org/is-wsl/download/is-wsl-2.1.1.tgz?cache=0&sync_timestamp=1569219566107&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-wsl%2Fdownload%2Fis-wsl-2.1.1.tgz'
+  /open/7.0.0:
+    dependencies:
+      is-wsl: 2.1.1
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-flKZmxTrc/kPDwgH/pOJfErnPsk=
+      tarball: 'https://registry.npm.taobao.org/open/download/open-7.0.0.tgz'
+  /path/0.12.7:
+    dependencies:
+      process: 0.11.10
+      util: 0.10.4
+    dev: false
+    resolution:
+      integrity: sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
+      tarball: 'https://registry.npm.taobao.org/path/download/path-0.12.7.tgz'
+  /process/0.11.10:
+    dev: false
+    engines:
+      node: '>= 0.6.0'
+    resolution:
+      integrity: sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
+      tarball: 'https://registry.npm.taobao.org/process/download/process-0.11.10.tgz'
+  /typescript/3.7.4:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-F0Ol7F/vah+p8+RwjjPIHHOHbBk=
+      tarball: 'https://registry.npm.taobao.org/typescript/download/typescript-3.7.4.tgz'
+  /util/0.10.4:
+    dependencies:
+      inherits: 2.0.3
+    dev: false
+    resolution:
+      integrity: sha1-OqASW/5mikZy3liFfTrOJ+y3aQE=
+      tarball: 'https://registry.npm.taobao.org/util/download/util-0.10.4.tgz'
+registry: 'http://registry.npm.taobao.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  digo: ^0.2.0
+  fs: ^0.0.1-security
+  open: ^7.0.0
+  path: ^0.12.7
+  typescript: ^3.7.4
