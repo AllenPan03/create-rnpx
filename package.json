@@ -2,13 +2,13 @@
   "name": "create-rnpx",
   "version": "0.0.3",
   "description": "Creates a rnpx application using the command line.",
-  "homepage": "https://github.com/rnpx/create-rnpx",
+  "homepage": "https://github.com/AllenPan03/create-rnpx",
   "bugs": {
-    "url": "https://github.com/rnpx/create-rnpx/issues"
+    "url": "https://github.com/AllenPan03/create-rnpx/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rnpx/create-rnpx"
+    "url": "https://github.com/AllenPan03/create-rnpx"
   },
   "license": "MIT",
   "files": [
