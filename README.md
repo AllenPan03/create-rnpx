@@ -27,7 +27,7 @@ $ yarn create rnpx
 ? Select the boilerplate type (Use arrow keys)
   ant-design-pro  - Create project with a layout-only ant-design-pro boilerplate, use together with rnpx block.
 ❯ app             - Create project with a simple boilerplate, support typescript.
-  plugin          - Create a rnpx plugin.
+  koa2-mysql-server          - Create a koa2 server.
 
 ? Do you want to use typescript? (y/N)
 
