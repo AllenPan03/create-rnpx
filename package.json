@@ -1,6 +1,6 @@
 {
   "name": "create-rnpx",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Creates a rnpx application using the command line.",
   "homepage": "https://github.com/AllenPan03/create-rnpx",
   "bugs": {
@@ -23,6 +23,7 @@
   "dependencies": {
     "chalk": "4.0.0",
     "clipboardy": "^2.1.0",
+    "create-rnpx": "file:",
     "debug": "^4.1.1",
     "execa": "^1.0.0",
     "fs-extra": "^8.0.1",
